@@ -1,0 +1,14 @@
+{
+  "name": "mmo",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "npx nodemon src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "socket.io": "^4.4.0"
+  },
+  "devDependencies": {}
+}
